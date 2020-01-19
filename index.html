@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang= "pt-br">
 	<head>
-		<title>criar jogo</title>
+		<title>questionario</title>
 		<meta charset= "utf-8">
 		<link href= "assets/css/reset.css" rel= "stylesheet">
         <link href= "assets/css/montar_atividade.css" rel= "stylesheet">
@@ -12,81 +12,10 @@
 	</head>
 	<body class="body">
         <div class="container">
-    		<header class ="header" >
-                    <a class = "perfil" href= "perfil.html" >
-                        <img class="foto_perfil" src="assets/img/pic_perfil.jpg" alt= "foto perfil" >
-                    </a>      
-                        <!-- nao coloquei nada dentro do perfil pq acho q vai ser outra tela, e nao um sidebar -->
-                    
-                    <a class ="logo" href= "pagina_inical.html"> <!-- insira nesse href o link dessa mesma pagina, pra ficar como botao devoltar ao inicio -->
-                        <img class="logo_" src= "assets/img/menu_icone.png" alt= "Ícone menu">
-                    </a>
-                    
-                </header>
+    		<header class ="header" >        
+            </header>
             
             <form class="main" action="feed.html" id= "main">  
-                <div class="top"> 
-                     <h1 id="demo" class = "nome_esporte"> jogo </h1> <!-- colocar o js pra puxar qual o esporte --> 
-                    <h1 class ="fav" > ☆ </h1>
-                </div> 
-            	
-            	<ul class = "escolha">
-            		<li class= "tipo_escolha"><p class = "qqo" > Local: </p>
-            			<ul class=  "locais" > 
-                            <div class='locais_'>
-        						<input  class ="item_local" type="checkbox" name="onde" value="ibira"> <h1 class="name_item">Ibirapuera </h1> 
-                                <br>
-                            </div>    
-                            <div class='locais_'>
-                				<input class ="item_local" type="checkbox" name="onde" value="villa"> <h1 class="name_item">Pinheiros </h1>
-                                <br>
-                            </div>
-                            <div class='locais_'>
-                				<input class ="item_local" type="checkbox" name="onde" value="Parque do Povo"> <h1 class="name_item"> Butanta </h1> 
-                                <br>
-                            </div>
-            			</ul>
-            		</li>
-            		</br>
-            		<li class= "tipo_escolha"><p class = "qqo" > Horario: </p>
-            			<ul class=  "dias_da_semana" > 
-            				<input class = "dia" type="checkbox" name="quando" value="domingo"  unchecked> <h1 class="day">D </h1></input>
-            				<input class = "dia" type="checkbox" name="quando" value="segunda" unchecked> <h1 class="day">S </h1></input>
-            				<input class = "dia" type="checkbox" name="quando" value="terca" unchecked> <h1 class="day">T </h1></input>
-            				<input class = "dia" type="checkbox" name="quando" value="quarta" unchecked> <h1 class="day">Q </h1></input>
-            				<input class = "dia" type="checkbox" name="quando" value="quinta" unchecked> <h1 class="day">Q </h1></input>
-            				<input class = "dia" type="checkbox" name="quando" value="sexta" unchecked> <h1 class="day">S </h1></input>
-            				<input class = "dia" type="checkbox" name="quando" value="sabado" unchecked> <h1 class="day">S </h1></input>
-
-            			</ul>
-
-            		<span>Que horas comecamos:</span>
-      				<input type="time" name="hora" class="hr"> <br />
-      				<span>Que horas terminamos:</span>
-      				<input type="time" name="hora_fim">  <br />
-            		</li>
-            		</br>
-            		<li class= "tipo_escolha"><p a class = "qqo" > Praticar com*: </p>
-            			<ul class=  "locais">
-                            <div class="locais_"> <!-- colocar esse style no css -->
-        						<input class= "quem" type="checkbox" name="quem" value="prof" unchecked>  <h1 class="name_item">Professor</h1>
-                                <br>
-                            </div>
-                            <div class="locais_">
-                				<input class= "quem" type="checkbox" name="quem" value="amigos" unchecked> <h1 class="name_item"> Chamar amigos</h1>
-                                <br>
-                            </div>
-                            <div class="locais_">
-                				<input class= "quem" type="checkbox" name="quem" value="Meu Genero" unchecked>  <h1 class="name_item">Meu Genero </h1>
-                                <br>
-                            </div>
-                            <div class="locais_">
-                				<input class= "quem" type="checkbox" name="quem" value="Minha faixa Etaria" unchecked> <h1 class="name_item"> Minha faixa etaria </h1>
-                                <br>
-                            </div>
-            			</ul>
-            		</li>
-            	</ul>
                 <h1>
                 <input type="hidden" id="sla" name="atv" value="jogoo">
     		      <input type="submit"  class = "gerar" value="GERAR FEED"></input></h1>
