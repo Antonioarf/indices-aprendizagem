@@ -1,0 +1,224 @@
+{
+	"1":{
+		"p":"Eu compreendo melhor alguma coisa depois de",
+		"a":"experimentar.",
+		"b":"refletir sobre ela."
+	},
+	"2":{
+		"p":"Eu me considero",
+		"a":"realista.",
+		"b":"inovador(a)."
+	},
+	"3":{
+		"p":"Quando eu penso sobre o que fiz ontem, é mais provável que aflorem",
+		"a":"figuras.",
+		"b":"palavras."
+	},
+	"4":{
+		"p":"Eu tendo a",
+		"a":"compreender os detalhes de um assunto, mas a estrutura geral pode ficar imprecisa.",
+		"b":"compreender a estrutura geral de um assunto, mas os detalhes podem ficar imprecisos."
+	},
+	"5":{
+		"p":"Quando estou aprendendo algum assunto novo, me ajuda",
+		"a":"falar sobre ele",
+		"b":"refletir sobre ele"
+	},
+	"6":{
+		"p":"Se eu fosse um professor, eu preferiria ensinar uma disciplina",
+		"a":"que trate com fatos e situações reais.",
+		"b":"que trate com idéias e teorias."
+	},
+	"7":{
+		"p":"Eu prefiro obter novas informações através de",
+		"a": "figuras, diagramas, gráficos ou mapas.",
+		"b" :"instruções escritas ou informações verbais.",
+	},
+	"8":{
+		"p":"Quando eu compreendo",
+		"a": "todas as partes, consigo entender o todo.",
+		"b":"o todo, consigo ver como as partes se encaixam",
+	},
+	"9":{
+		"p":"Em um grupo de estudo, trabalhando um material difícil, eu provavelmente",
+		"a" :"tomo a iniciativa e contribuo com idéias.",
+		"b" :"assumo uma posição discreta e escuto.",
+	},
+	"10":{
+		"p":"Acho mais fácil",
+		"a":"aprender fatos.",
+		"b":"aprender conceitos"
+	},
+	"11":{
+		"p":"Em um livro com uma porção de figuras e desenhos, eu provavelmente",
+		"a": "observo as figuras e desenhos cuidadosamente.",
+		"b": "atento para o texto escrito."
+	},
+	"12":{
+		"p":"Quando resolvo problemas de matemática, eu",
+		"a": "usualmente trabalho de maneira a resolver uma etapa de cada vez.",
+		"b": "freqüentemente antevejo as soluções, mas tenho que me esforçar muito para conceber as etapas para chegar a elas."
+	},
+	"13":{
+		"p":"Nas disciplinas que cursei eu",
+		"a": "em geral fiz amizade com muitos dos colegas.",
+		"b": "raramente fiz amizade com muitos dos colegas."
+	},
+	"14":{
+		"p":"Em literatura de não-ficção, eu prefiro",
+		"a": "algo que me ensine fatos novos ou me indique como fazer alguma coisa.",
+		"b": "algo que me apresente novas idéias para pensar."
+
+	},
+	"15":{
+		"p":"Eu gosto de professores",
+	"a":"que colocam uma porção de diagramas no quadro.",
+	"b":" que gastam bastante tempo explicando."
+	},
+	"16":{
+		"p":"Quando estou analisando uma estória ou novela eu",
+		"a":"penso nos incidentes e tento colocá-los juntos para identificar os temas",
+		"b":"tenho consciência dos temas quando termino a leitura e então tenho que voltar atrás para encontrar os incidentes que os confirmem."
+	},
+	"17":{
+		"p":"Quando inicio a resolução de um problema para casa, normalmente eu",
+		"a":"começo a trabalhar imediatamente na solução.",
+		"b":"primeiro tento compreender completamente o problema."
+	},
+	"18":{
+		"p":"Prefiro a idéia do",
+		"a":"certo",
+		"b":"teórico"
+	},
+	"19":{
+		"p":"Relembro melhor",
+		"a":"o que vejo",
+		"b":"o que ouço"
+	},
+	"20":{
+		"p":"É mais importante para mim que o professor",
+		"a":"apresente a matéria em etapas seqüências claras.",
+		"b":"apresente um quadro geral e relacione a matéria com outros assuntos."
+	},
+	"21":{
+		"p":"Eu prefiro estudar",
+		"a":"sozinho",
+		"b":"em grupo"
+	},
+	"22":{
+		"p":" Eu costumo ser considerado(a)",
+		"a":"cuidadoso(a) com os detalhes do meu trabalho.",
+		"b":"criativo(a) na maneira de realizar meu trabalho."
+	},
+	"23":{
+		"p":"Quando busco orientação para chegar a um lugar desconhecido, eu prefiro",
+		"a":"um mapa.",
+		"b":"instruções por escrito."
+	},
+	"24":{
+		"p":"Eu aprendo",
+		"a":"num ritmo bastante regular. Se estudar pesado, eu “chego lá”.",
+		"b":"em saltos. Fico totalmente confuso(a) por algum tempo, e então, repentinamente eu tenho um “estalo”."
+	},
+	"25":{
+		"p":"Eu prefiro primeiro",
+		"a":"experimentar as coisas.",
+		"b":"pensar sobre como é que eu vou fazer."
+	},
+	"26":{
+		"p":"Quando estou lendo como lazer, eu prefiro escritores que ",
+		"a":"explicitem claramente o que querem dizer.",
+		"b":"dizem as coisas de maneira criativa, interessante."
+	},
+	"27":{
+		"p":"Quando vejo um diagrama ou esquema em uma aula. Relembro mais facilmente",
+		"a":"da figura",
+		"b":"do que o(a) professor(a) disse a respeito dela. "
+	},
+	"28":{
+		"p":"Quando considero um conjunto de informações, provavelmente eu",
+		"a":"presto mais atenção nos detalhes e não percebo o quadro geral.",
+		"b":"procuro compreender o quadro geral antes de atentar para os detalhes."
+	},
+	"29":{
+		"p":"Relembro mais facilmente.",
+		"a":"algo que fiz.",
+		"b":"algo sobre o que pensei bastante."
+	},
+	"30":{
+		"p":"Quando tenho uma tarefa para executar, eu prefiro",
+		"a":"dominar uma maneira para a execução da tarefa.",
+		"b":"encontrar novas maneiras para a execução da tarefa."
+	},
+	"31":{
+		"p":"Quando alguém está me mostrando dados, eu prefiro",
+		"a":"diagramas e gráficos.",
+		"b":"texto sumarizando os resultados."
+	},
+	"32":{
+		"p":"Quando escrevo um texto, eu prefiro trabalhar (pensar a respeito ou escrever)",
+		"a":"a parte inicial do texto e avançar ordenadamente.",
+		"b":"diferentes partes do texto e ordená-las depois."
+	},
+	"33":{
+		"p":"Quando tenho que trabalhar em um projeto em grupo, eu prefiro que se faça primeiro",
+		"a":"um debate (brainstorming) em grupo, onde todos contribuem com idéias.",
+		"b":"um brainstorming individual, seguido de reunião do grupo para comparar idéias."
+	},
+	"34":{
+		"p":"Considero um elogio chamar alguém de",
+		"a":"sensível.",
+		"b":"imaginativo."
+	},
+	"35":{
+		"p":"Das pessoas que conheço em uma festa, provavelmente eu me recordo melhor",
+		"a":"de sua aparência.",
+		"b":"do que elas disseram de si mesmas."
+	},
+	"36":{
+		"p":"Quando estou aprendendo um assunto novo, eu prefiro",
+		"a":"concentrar-me no assunto, aprendendo o máximo possível.",
+		"b":"tentar estabelecer conexões entre o assunto e outros com ele relacionados."
+	},
+	"37":{
+		"p":"Mais provavelmente sou considerado(a)",
+		"a":"expansivo(a).",
+		"b":"reservado(a)."
+	},
+	"38":{
+		"p":"Prefiro disciplinas que enfatizam",
+		"a":"material concreto (fatos, dados).",
+		"b":"material abstrato (conceitos, teorias)."
+	},
+	"39":{
+		"p":"Para entretenimento, eu prefiro",
+		"a":"assistir televisão.",
+		"b":"ler um livro."
+	},
+	"40":{
+		"p":"Alguns professores iniciam suas preleções com um resumo do que irão cobrir. Tais resumos são",
+		"a":"de alguma utilidade para mim.",
+		"b":"muito úteis para mim. "
+	},
+	"41":{
+		"p":"A idéia de fazer o trabalho de casa em grupo, com a mesma nota para todos do grupo,",
+		"a":"me agrada",
+		"b":"não me agrada"
+	},
+	"42":{
+		"p":"Quando estou fazendo cálculo longos",
+		"a":"tendo a repetir todos os passos e conferir meu trabalho cuidadosamente.",
+		"b":"acho cansativo conferir o meu trabalho e tenho que me esforçar para fazê-lo."
+	},
+	"43":{
+		"p":"Tendo a descrever os lugares onde estive",
+		"a":"com facilidade e com bom detalhamento.",
+		"b":"com dificuldade e sem detalhamento."
+	},
+	"44":{
+		"p":"Quando estou resolvendo problemas em grupo, mais provavelmente eu",
+		"a":"penso nas etapas do processo de solução.",
+		"b":"penso nas possíveis conseqüências, ou sobre a aplicações da solução para uma ampla faixa de áreas."
+	},
+
+}

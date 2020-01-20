@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+	<head>
+		<title>questionario</title>
+		<meta charset= "utf-8">
+		<link href= "assets/reset.css" rel= "stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet">
+        <script src="assets/geral.js"></script>
+        <script src="assets/java.js"></script>
+        <script src="java.js"></script>
+	</head>
+	<body>
+		<h1> Muito obrigado por responder </h1>
+
+		<p id="um"></p>
+		<p id="dois"></p>
+		<p id="tres"></p>
+		<p id="quatro"></p>
+		<p id="cinco"></p>
+		<p id="seis"></p>
+		<p id="sete"></p>
+		<p id="oito"></p>
+
+
+<form name="submit-to-google-sheet" id="theForm">
+		<input type="chekbox" name="ati" id="um" value="3487">
+	    <input type="chekbox" name="sem" id="dois" value="3487">
+     	<input type="chekbox" name="vis" id="tres" value="3487">
+     	<input type="chekbox" name="seq" id="quatro" value="3487">
+  <button type="submit">Send</button>
+</form>
+
+<script>
+  // document.getElementById("theForm").submit();	
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwCDfnkzr9PgGgXwW6tLMzIxjarZPAPWm1FntN0Eq0o7tOAEVTw/exec'
+  const form = document.getElementById("theForm")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+
+
+	<!-- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe> -->
+	<!-- <form method="post" action="https://docs.google.com/spreadsheets/d/1LMV_Vjl-RbsPlHAARoObx63F-fhoFPeV-u3LtPqgFlI/edit?usp=sharing" name="theForm" id="theForm" target="hidden_iframe">
+	<!-- 	<input type="submit"  class = "gerar" value="ENVIAR"></input> -->
+		<!-- <input type="hidden" value="Submit" class="submit" onclick="if (!window.__cfRLUnblockHandlers) return false; checkBeforeSubmit();"> -->
+
+			<!-- <form name="submit-to-google-sheet">
+ 			 <input name="email" type="email" placeholder="Email" required>
+ 			 <input type="hidden" name="ati" id="um" value="3487">
+			 <input type="hidden" name="sem" id="dois" value="3487">
+		 	 <input type="hidden" name="vis" id="tres" value="3487">
+			 <input type="hidden" name="seq" id="quatro" value="3487">
+  			 <button type="submit">Send</button> -->
+        </form>
+	</form> -->
+
+	</body>
+</html>
